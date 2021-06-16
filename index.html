@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      body,
+      html {
+        height: 100%;
+      }
+      .qrGrid {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        background-color: white;
+        /* grid-gap: 1em; */
+      }
+      .outer1 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        background-color: black;
+        grid-row: 1 / 4;
+        grid-column: 1 / 4;
+      }
+      .outer2 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        background-color: black;
+        grid-row: 1 / 4;
+        grid-column: 5 / 8;
+      }
+      .outer3 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        background-color: black;
+        grid-row: 5 / 8;
+        grid-column: 1 / 4;
+      }
+
+      .inner1 {
+        background-color: black;
+        grid-row: 1 / 7;
+        grid-column: 1 / 7;
+      }
+      .inner2 {
+        background-color: white;
+        grid-row: 2 / 6;
+        grid-column: 2 / 6;
+      }
+
+      .inner3 {
+        background-color: black;
+        grid-row: 1 / 7;
+        grid-column: 1 / 7;
+      }
+      .inner4 {
+        background-color: white;
+        grid-row: 2 / 6;
+        grid-column: 2 / 6;
+      }
+
+      .inner5 {
+        background-color: black;
+        grid-row: 1 / 7;
+        grid-column: 1 / 7;
+      }
+      .inner6 {
+        background-color: white;
+        grid-row: 2 / 6;
+        grid-column: 2 / 6;
+      }
+      .r1 {
+        background-color: black;
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+      }
+      .r3 {
+        background-color: black;
+        grid-row: 2 / 3;
+        grid-column: 4 / 5;
+      }
+      .r4 {
+        background-color: black;
+        grid-row: 4 / 5;
+        grid-column: 2 / 3;
+      }
+      .r5 {
+        background-color: black;
+        grid-row: 6 / 7;
+        grid-column: 2 / 3;
+      }
+      .r6 {
+        background-color: black;
+        grid-row: 2 / 3;
+        grid-column: 4 / 5;
+      }
+      .r7 {
+        background-color: black;
+        grid-row: 2 / 3;
+        grid-column: 6 / 7;
+      }
+      .r8 {
+        background-color: black;
+        grid-row: 4 / 5;
+        grid-column: 4 / 5;
+      }
+      .r9 {
+        background-color: black;
+        grid-row: 5 / 6;
+        grid-column: 7 /8;
+      }
+      .r10 {
+        background-color: black;
+        grid-row: 5 / 6;
+        grid-column: 5 /6;
+      }
+      .r11 {
+        background-color: black;
+        grid-row: 6 / 7;
+        grid-column: 4 / 5;
+      }
+      .r12 {
+        background-color: black;
+        grid-row: 6 / 7;
+        grid-column: 6 / 7;
+      }
+      .r13 {
+        background-color: black;
+        grid-row: 7 / 8;
+        grid-column: 5 / 6;
+      }
+      .r14 {
+        background-color: black;
+        grid-row: 7 / 8;
+        grid-column: 7 / 8;
+      }
+
+      .r15 {
+        background-color: black;
+        grid-row: 4 / 5;
+        grid-column: 6 / 7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="qrGrid">
+      <div class="outer1">
+        <div class="inner1"></div>
+        <div class="inner2"></div>
+      </div>
+
+      <div class="outer2">
+        <div class="inner3"></div>
+        <div class="inner4"></div>
+      </div>
+      <div class="outer3">
+        <div class="inner5"></div>
+        <div class="inner6"></div>
+      </div>
+      <div class="r1"></div>
+      <div class="r3"></div>
+      <div class="r4"></div>
+      <div class="r5"></div>
+      <div class="r6"></div>
+      <div class="r7"></div>
+      <div class="r8"></div>
+      <div class="r9"></div>
+      <div class="r10"></div>
+      <div class="r11"></div>
+      <div class="r12"></div>
+      <div class="r13"></div>
+      <div class="r14"></div>
+      <div class="r15"></div>
+    </div>
+  </body>
+</html>
